@@ -1,0 +1,18 @@
+.DS_Store
+.idea/
+__pycache__/
+*.py[cod]
+
+/work/
+/.venv/
+/.env
+/.env.*
+/.cdsapirc
+/.netrc
+keys.json
+secret.txt
+/data/kgm/inputs/kgm_public_inputs.json
+
+# Keep the original shapefile sets in the local workspace.
+/KGM_Canal_Network_Clipped.*
+/KGM_Irrigation_Command.*

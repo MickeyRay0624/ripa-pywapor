@@ -1,0 +1,90 @@
+{
+  "pilot": "KGM 2023-02-01 to 2023-02-10",
+  "model": "pyWaPOR 3.7.3 SE_ROOT and ETLook v3",
+  "bounds_wgs84": [
+    69.25937293758146,
+    25.258658181006528,
+    69.34455066564536,
+    25.327136553488092
+  ],
+  "sentinel2": {
+    "catalogue": "https://earth-search.aws.element84.com/v1/search",
+    "items": [
+      "S2B_42RWP_20230123_0_L2A",
+      "S2A_42RWP_20230128_0_L2A",
+      "S2B_42RWP_20230202_0_L2A",
+      "S2A_42RWP_20230207_0_L2A",
+      "S2B_42RWP_20230212_0_L2A",
+      "S2A_42RWP_20230217_0_L2A"
+    ]
+  },
+  "landsat": {
+    "catalogue": "https://planetarycomputer.microsoft.com/api/stac/v1/search",
+    "items": [
+      "LC09_L2SP_151043_20230128_02_T1",
+      "LC08_L2SP_151043_20230205_02_T1",
+      "LC09_L2SP_151043_20230213_02_T1"
+    ],
+    "method": "Collection 2 Level 2 land surface temperature with QA masks, no thermal sharpening",
+    "thermal_sensor_resolution_m": 100,
+    "max_temperature_uncertainty_k": 3
+  },
+  "era5": "C3S/ECMWF ERA5, Earthmover Icechunk open mirror, single/temporal group",
+  "daily_sources": {
+    "ra_flat": [
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-01-26.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-01-27.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-01-28.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-01-29.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-01-30.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-01-31.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-01.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-02.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-03.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-04.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-05.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-06.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-07.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-08.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-09.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-10.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-11.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-12.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-13.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-14.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-15.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-16.tif",
+      "https://storage.googleapis.com/fao-gismgr-c3s-data/DATA/C3S/MAPSET/AGERA5-SRF/C3S.AGERA5-SRF.2023-02-17.tif"
+    ],
+    "p": [
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.01.26.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.01.27.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.01.28.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.01.29.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.01.30.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.01.31.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.01.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.02.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.03.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.04.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.05.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.06.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.07.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.08.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.09.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.10.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.11.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.12.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.13.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.14.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.15.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.16.cog",
+      "https://data.chc.ucsb.edu/products/CHIRPS/v2.0/global_daily/cogs/p05/2023/chirps-v2.0.2023.02.17.cog"
+    ]
+  },
+  "dem": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N25_00_E069_00_DEM/Copernicus_DSM_COG_10_N25_00_E069_00_DEM.tif",
+  "model_coefficients": "https://storage.googleapis.com/fao-cog-data/WaPOR3.tif",
+  "optical_time_interpolation": "Linear between Sentinel-2 observations",
+  "biomass_carbon_fraction_for_reporting": 0.45,
+  "reporting_grid": "EPSG:32642, 20 m; Landsat thermal input has a coarser native resolution"
+}

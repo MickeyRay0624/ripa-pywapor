@@ -1,0 +1,11 @@
+{
+  "start": "2022-10-01",
+  "end": "2023-04-30",
+  "dekads": 21,
+  "edge_definition": "Pixel centres within 20 m inside the command boundary on the native WaPOR grid",
+  "edge_pixels": 2225,
+  "edge_complete_pixels": 2046,
+  "edge_complete_percent": 91.96,
+  "edge_outside_source_footprint_pixels": 151,
+  "edge_no_data_in_both_source_products_every_dekad_pixels": 28
+}
