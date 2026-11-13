@@ -2,7 +2,7 @@
 
 The KGM pilot uses pyWaPOR 3.7.3 to estimate actual evapotranspiration and interception (AETI) and net primary production (NPP) for 1–10 February 2023. The outputs are clipped to the irrigation command area on a 20 m UTM grid. A companion analysis uses published WaPOR Level 3 rasters to check seasonal aggregation and boundary coverage at Wad Helal, Sudan.
 
-[计算原理和复跑说明](docs/RIPA_KGM_Pilot_Methods.docx)
+[数据来源与计算方法（中文）](docs/RIPA_KGM_Pilot_Methods.docx) · [Data sources and calculation methods (English)](docs/RIPA_KGM_Pilot_Methods_EN.docx)
 
 ![KGM pilot maps for 1–10 February 2023](results/kgm/kgm_pilot_maps.png)
 
